@@ -26,11 +26,13 @@ body {
 }
 
 .hand {
-  width: 5px;
+  width: 3px;
   height: 80px;
   background-color: black;
   position: absolute;
   top: 50%;
   transform-origin: top;
   transform: rotate(180deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
