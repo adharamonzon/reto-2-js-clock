@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 45, 63, 1) 100%);
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 45, 63, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-face {
+  border-radius: 50%;
+  border: solid black 5px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hand {
+  width: 5px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: top;
+  transform: rotate(180deg);
+}
